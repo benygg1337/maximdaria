@@ -1,8 +1,8 @@
 {
-    "name": "igor/roman",
+    "name": "igor/maximdaria",
     "description": "n",
     "type": "project",
-    "license": "mit",
+    "license": "lit",
     "minimum-stability": "stable",
     "require": {
         "google/apiclient": "2.0"
