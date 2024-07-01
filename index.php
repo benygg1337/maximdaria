@@ -13,7 +13,7 @@ Template Name: Home
                 <div class="in9-page__bg">
                     <div class="in9-border"></div>
                     <div class="in9-page__title">
-                        Максим и Дарья TEST
+                        Максим и Дарья
                         <span>08/08/2024</span>
                     </div>
                 </div>
@@ -257,6 +257,7 @@ Template Name: Home
                         <div class="in9-form__box-no">
                             <input type="text" name="form-name-no" placeholder="Ваше имя и фамилия."  data-value=""
                                 class="in9-form-input-no _req">
+                            <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
                             <button type="submit" class="in9-form__btn in9-btn">Отправить</button>
                         </div>
 
