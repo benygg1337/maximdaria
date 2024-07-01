@@ -166,11 +166,6 @@ $client->setScopes([
     'https://www.googleapis.com/auth/spreadsheets'
 ]);
 
-// Преобразование данных в целочисленные значения
-
-$oldvisit = (int)$oldvisit;
-$childvisit = (int)$childvisit;
-
 try {
     $service = new Sheets($client);
     $spreadsheetId = '11mc_UVl87A7steKOx2wj8qYdupFuOSL0240IIatArHE'; // Ваш ID таблицы
