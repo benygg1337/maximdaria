@@ -165,10 +165,6 @@ $client->setApplicationName("marryme");
 $client->setScopes([
     'https://www.googleapis.com/auth/spreadsheets'
 ]);
-// Очистка и приведение типов данных
-
-$oldvisit = trim($oldvisit);
-$childvisit = trim($childvisit);
 
 // Преобразование данных в целочисленные значения
 
