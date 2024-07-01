@@ -182,7 +182,7 @@ try {
 
     // Данные для добавления
     $values = [
-        [$guest, $visit, $visit, $drink, $transfer1 $transfer2, $date_time]
+        [$guest, $visit, $visit, $drink, $transfer1, $transfer2, $date_time]
     ];
     
     $range = 'A2'; 
