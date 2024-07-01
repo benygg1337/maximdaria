@@ -6,7 +6,7 @@ add_action( 'wp_enqueue_scripts', function(){
 
     wp_enqueue_script( 'vendors', get_template_directory_uri() . '/assets/js/vendors.min.js', [], '5.0.4', 'true' );
     wp_enqueue_script( 'app.min', get_template_directory_uri() . '/assets/js/app.min.js', array('vendors'), '6.4', 'true' );
-    // wp_enqueue_script( 'gcaptcha', 'https://www.google.com/recaptcha/enterprise.js?render=6Lfa_gUqAAAAAOjWZsFK7uabzY6Tg_ATk7bs9Fln', array(), '3', false );
+    wp_enqueue_script( 'gcaptcha', 'https://www.google.com/recaptcha/enterprise.js?render=6Lfa_gUqAAAAAOjWZsFK7uabzY6Tg_ATk7bs9Fln', array(), '3', false );
 
 });
 
