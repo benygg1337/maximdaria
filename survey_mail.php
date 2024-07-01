@@ -1,7 +1,7 @@
 <?php
 
 // Файлы phpmailer
-// require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 require __DIR__ . '/php/PHPMailer.php';
 require __DIR__ . '/php/SMTP.php';
 require __DIR__ . '/php/Exception.php';
