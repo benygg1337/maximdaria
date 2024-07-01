@@ -1,6 +1,6 @@
 env:
   PROD_HOST: server198.hosting.reg.ru
-  PROD_PATH: /var//www/maxim-daria.marryme-invites.ru/wp-content/themes/maximdaria/
+  PROD_PATH: /var/www/u2241995/data/www/maxim-daria.marryme-invites.ru/wp-content/themes/maximdaria
   PROD_USER: u2241995
 # fix
 on:
