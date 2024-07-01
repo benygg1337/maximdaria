@@ -156,53 +156,53 @@ if ($transfer2 === 'self2') {
 
 
 
-// //Отправка в таблицу
-// putenv('GOOGLE_APPLICATION_CREDENTIALS=' . __DIR__ . '/secret_new.json');
+//Отправка в таблицу
+putenv('GOOGLE_APPLICATION_CREDENTIALS=' . __DIR__ . '/secret_new.json');
 
-// $client = new Client();
-// $client->useApplicationDefaultCredentials();
-// $client->setApplicationName("marryme");
-// $client->setScopes([
-//     'https://www.googleapis.com/auth/spreadsheets'
-// ]);
-// // Очистка и приведение типов данных
+$client = new Client();
+$client->useApplicationDefaultCredentials();
+$client->setApplicationName("marryme");
+$client->setScopes([
+    'https://www.googleapis.com/auth/spreadsheets'
+]);
+// Очистка и приведение типов данных
 
-// $oldvisit = trim($oldvisit);
-// $childvisit = trim($childvisit);
+$oldvisit = trim($oldvisit);
+$childvisit = trim($childvisit);
 
-// // Преобразование данных в целочисленные значения
+// Преобразование данных в целочисленные значения
 
-// $oldvisit = (int)$oldvisit;
-// $childvisit = (int)$childvisit;
+$oldvisit = (int)$oldvisit;
+$childvisit = (int)$childvisit;
 
-// try {
-//     $service = new Sheets($client);
-//     $spreadsheetId = '1rBIvNtSltU8YEVIduOltlJVHI3LvyW63F_VnfLXi2YE'; // Ваш ID таблицы
-//     $date_time = date("Y-m-d H:i:s");
+try {
+    $service = new Sheets($client);
+    $spreadsheetId = '11mc_UVl87A7steKOx2wj8qYdupFuOSL0240IIatArHE'; // Ваш ID таблицы
+    $date_time = date("Y-m-d H:i:s");
 
-//     // Данные для добавления
-//     $values = [
-//         [$guest, $phone, $visit, $oldvisit, $childvisit, $eat, $drink, $date_time]
-//     ];
+    // Данные для добавления
+    $values = [
+        [$guest, $visit, $visit, $drink, $transfer1 $transfer2, $date_time]
+    ];
     
-//     $range = 'A2'; 
-//     $body = new Google_Service_Sheets_ValueRange([
-//         'values' => $values
-//     ]);
+    $range = 'A2'; 
+    $body = new Google_Service_Sheets_ValueRange([
+        'values' => $values
+    ]);
     
-//     $params = [
-//         'valueInputOption' => 'RAW'
-//     ];
+    $params = [
+        'valueInputOption' => 'RAW'
+    ];
 
-//     $range = 'A2'; // Допустим, вы хотите начать добавление с A1
-//     $service->spreadsheets_values->append($spreadsheetId, $range, $body, $params);
-// } catch (Exception $e) {
-//     // Обработка ошибки
-//     $data['result'] = "error";
-//     $data['info'] = "Произошла ошибка при добавлении данных в Google Sheets: " . $e->getMessage();
-//     writeLog("Ошибка Google Sheets: " . $e->getMessage());
-//     writeResponseLog(json_encode($data));
-// } 
+    $range = 'A2'; // Допустим, вы хотите начать добавление с A1
+    $service->spreadsheets_values->append($spreadsheetId, $range, $body, $params);
+} catch (Exception $e) {
+    // Обработка ошибки
+    $data['result'] = "error";
+    $data['info'] = "Произошла ошибка при добавлении данных в Google Sheets: " . $e->getMessage();
+    writeLog("Ошибка Google Sheets: " . $e->getMessage());
+    writeResponseLog(json_encode($data));
+} 
 
     // Формирование самого письма
     $headers = "Content-Type: text/html; charset=UTF-8";

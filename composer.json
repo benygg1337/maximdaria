@@ -1,0 +1,10 @@
+{
+    "name": "igor/roman",
+    "description": "n",
+    "type": "project",
+    "license": "mit",
+    "minimum-stability": "stable",
+    "require": {
+        "google/apiclient": "2.0"
+    }
+}
