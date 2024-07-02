@@ -92,7 +92,7 @@ Template Name: Home
                         <div class="in9-place__row">
                             <div class="in9-place__column">
                                 <div class="in9-place__item">
-                                    <div class="in9-place__image"><img src="img/place01.jpg" alt="" />
+                                    <div class="in9-place__image"><img src="<?php bloginfo('template_url'); ?>/assets/img/place01.jpg" alt="" />
                                     </div>
                                     <div class="in9-place__block">
                                         <div class="in9-place__subtitle">Серпуховский городской отдел ЗАГС</div>
@@ -103,7 +103,7 @@ Template Name: Home
                             </div>
                             <div class="in9-place__column">
                                 <div class="in9-place__item">
-                                    <div class="in9-place__image"><img src="img/place02.jpg" alt="" />
+                                    <div class="in9-place__image"><img src="<?php bloginfo('template_url'); ?>/assets/img/place02.jpg" alt="" />
                                     </div>
                                     <div class="in9-place__block">
                                         <div class="in9-place__subtitle">Загородный комплекс “ПЕТРУХИНО-КЛУБ” </div>
