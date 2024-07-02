@@ -2182,3 +2182,7 @@ ol.counter li:before {
 .grecaptcha-badge {
   visibility: hidden;
 }
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
