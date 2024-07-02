@@ -320,7 +320,7 @@ textarea:focus {
   }
 }
 .in9-form-input._error {
-  border: #d31313 solid 1px;
+  border: #d31313 solid 2px;
 }
 
 textarea.in9-form-input {
@@ -2177,4 +2177,8 @@ ol.counter li:before {
     height: 38px;
     width: 240px;
   }
+}
+
+.grecaptcha-badge {
+  visibility: hidden;
 }

@@ -92,22 +92,22 @@ Template Name: Home
                         <div class="in9-place__row">
                             <div class="in9-place__column">
                                 <div class="in9-place__item">
-                                    <div class="in9-place__image"><img src="<?php bloginfo('template_url'); ?>/assets/img/place01.jpg" alt="" />
+                                    <div class="in9-place__image"><img src="img/place01.jpg" alt="" />
                                     </div>
                                     <div class="in9-place__block">
                                         <div class="in9-place__subtitle">Серпуховский городской отдел ЗАГС</div>
-                                        <a href="https://yandex.ru/profile/1184189507?no-distribution=1&source=wizbiz_new_map_single"
+                                        <a target="_blank" href="https://yandex.ru/maps/org/otdel_1_upravleniya_zags_po_gorodskomu_okrugu_serpukhov_glavnogo_upravleniya_zags_moskovkoy_oblasti/1122970033/?ll=37.429885%2C54.909930&z=16.06"
                                             class="in9-place__btn in9-btn_w">Посмотреть на карте</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="in9-place__column">
                                 <div class="in9-place__item">
-                                    <div class="in9-place__image"><img src="<?php bloginfo('template_url'); ?>/assets/img/place02.jpg" alt="" />
+                                    <div class="in9-place__image"><img src="img/place02.jpg" alt="" />
                                     </div>
                                     <div class="in9-place__block">
                                         <div class="in9-place__subtitle">Загородный комплекс “ПЕТРУХИНО-КЛУБ” </div>
-                                        <a href="https://yandex.ru/profile/1023573952?no-distribution=1&source=wizbiz_new_map_single"
+                                        <a target="_blank" href="https://yandex.ru/maps/?ll=37.535663%2C54.978198&mode=poi&poi%5Bpoint%5D=37.534648%2C54.978217&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D175486614725&z=17"
                                             class="in9-place__btn in9-btn_w">Посмотреть на карте</a>
                                     </div>
                                 </div>
@@ -156,7 +156,7 @@ Template Name: Home
                                             Максим
                                             <span>8(926) 785-42-01</span>
                                         </div>
-                                        <div class="in9-contacts__btn in9-btn_w">Позвонить жениху</div>
+                                        <a href="tel:+79267854201" class="in9-contacts__btn in9-btn_w">Позвонить жениху</a>
                                     </div>
                                 </div>
                                 <div class="in9-contacts__column">
@@ -165,7 +165,7 @@ Template Name: Home
                                             Дарья
                                             <span>8(925) 564-06-79</span>
                                         </div>
-                                        <div class="in9-contacts__btn in9-btn_w">Позвонить невесте</div>
+                                        <a href="tel:+79255640679" class="in9-contacts__btn in9-btn_w">Позвонить невесте</a>
                                     </div>
                                 </div>
                             </div>
