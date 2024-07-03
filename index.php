@@ -205,11 +205,11 @@ Template Name: Home
                             
                             <div class="in9-form__subtitle">Будете присутствовать на росписи?</div>
                             <div class="in9-form__item">
-                                <input id="radio-yes" type="radio" name="form-yes" data-value="" value="yes"
+                                <input id="radio-yes" type="radio" name="rospis" data-value="" value="yes"
                                     class="in9-form-input-radio" />
                                 <label for="radio-yes" class="in9-form-radio">Да</label>
 
-                                <input id="radio-no" type="radio" name="form-no" data-value="" value="no"
+                                <input id="radio-no" type="radio" name="rospis" data-value="" value="no"
                                     class="in9-form-input-radio">
                                 <label for="radio-no" class="in9-form-radio">Нет</label>
                             </div>

@@ -93,6 +93,14 @@ if ($visit === 'agree') {
     $visit = "Не сможет присутствовать";
 }
 
+// Будут ли на росписи
+$rospis = $_POST['rospis'];
+if ($rospis === 'yes') {
+    $rospis = "Будет на росписи";
+} elseif ($$rospis === 'no') {
+    $rospis = "Не будет на росписи";
+}
+
 
 
 
@@ -173,7 +181,7 @@ try {
 
     // Данные для добавления
     $values = [
-        [$guest, $visit, $drink, $transfer1, $transfer2, $date_time]
+        [$guest, $visit, $drink, $transfer1, $transfer2, $rospis]
     ];
     
     $range = 'A2'; 
@@ -199,8 +207,14 @@ try {
     $headers = "Content-Type: text/html; charset=UTF-8";
     $title = "Результат опроса";
     $body = "<h1>Запрос заполнил: $guest</h1>
+    
     <b>Присутствие:</b> $visit<br>";
+    
+    
 
+    if ($rospis) {
+        $body .= "<b>Будет ли на росписи:</b> $rospis<br>";
+    }
     if ($drink) {
         $body .= "<b>Предпочтения по напиткам:</b> $drink<br>";
     }
