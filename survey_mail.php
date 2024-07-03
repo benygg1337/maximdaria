@@ -97,7 +97,7 @@ if ($visit === 'agree') {
 $rospis = $_POST['rospis'];
 if ($rospis === 'yes') {
     $rospis = "Будет на росписи";
-} elseif ($$rospis === 'no') {
+} elseif ($rospis === 'no') {
     $rospis = "Не будет на росписи";
 }
 
