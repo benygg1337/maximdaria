@@ -44,6 +44,13 @@ Template Name: Home
                         <div class="in9-program__block">
                             <p></p>
                             <div class="in9-program__item">
+                                <div class="in9-program__time">10:30</div>
+                                <div class="in9-program__box">
+                                    <div class="in9-program__subtitle">Автобус до загса</div>
+                                    <div class="in9-program__text">Адрес: Чехов, московская улица, 94/2</div>
+                                </div>
+                            </div>
+                            <div class="in9-program__item">
                                 <div class="in9-program__time">12:00</div>
                                 <div class="in9-program__box">
                                     <div class="in9-program__subtitle">Роспись в ЗАГСе</div>
@@ -51,14 +58,14 @@ Template Name: Home
                                         Адрес: г. Серпухов, ул. Луначарского, д. 74</div>
                                 </div>
                             </div>
-                            <div class="in9-program__item">
+                            <!-- <div class="in9-program__item">
                                 <div class="in9-program__time">14:40</div>
                                 <div class="in9-program__box">
                                     <div class="in9-program__subtitle">Трансфер до банкета</div>
                                     <div class="in9-program__text">Адрес: г. Чехов, ул.Мира, д.9
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="in9-program__item">
                                 <div class="in9-program__time">15:30 </div>
                                 <div class="in9-program__box">
